@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SuperMarket - Inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>SuperMarket</h1>
+        <a href="index.html">Dashboard</a>
+        <a href="products.html">Products</a>
+        <a href="sales.html">Sales</a>
+        <a href="inventory.html" class="active">Inventory</a>
+    </div>
+    <div class="main-content">
+        <h2 class="page-title">Stock Inventory</h2>
+        <div class="container" style="display:block;">
+            <table style="width:100%;text-align:left;border-collapse:collapse;">
+                <thead>
+                    <tr style="border-bottom:2px solid #800000;color:#800000;">
+                        <th style="padding:10px;">Product Name</th>
+                        <th style="padding:10px;">Price</th>
+                        <th style="padding:10px;">Current Stock</th>
+                        <th style="padding:10px;">Status</th>
+                    </tr>
+                </thead>
+                <tbody id="inventoryBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="javamain.js"></script>
+</body>
+</html>
